@@ -1,43 +1,17 @@
-2022-07-19 12:57:10,178 uvicorn.error INFO:Started server process [14230]
-2022-07-19 12:57:10,178 uvicorn.error INFO:Waiting for application startup.
-2022-07-19 12:57:10,178 uvicorn.error INFO:Application startup complete.
-2022-07-19 12:57:25,337 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 12:57:38,913 root INFO:endpoint: '/delete_data' , deleted name succesfully
-2022-07-19 12:57:44,731 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 12:57:58,154 root INFO:endpoint: '/delete_data' , deleted name succesfully
-2022-07-19 12:58:01,454 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:39,642 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:39,754 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:39,944 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:40,107 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:40,240 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:40,462 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:40,679 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:40,833 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:41,088 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:41,277 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:41,532 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:41,763 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:41,999 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:42,212 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:42,391 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:42,612 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:42,786 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:42,981 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:43,171 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:43,398 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:43,596 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:43,769 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:44,011 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:44,191 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:44,393 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:44,580 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:44,785 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:44,960 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:45,165 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:45,351 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:45,544 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:45,691 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:07:45,864 root INFO:endpoint: '/get_data' , Task executed succesfully
-2022-07-19 13:09:18,878 root INFO:endpoint: '/input_name' , added name succesfully
-2022-07-19 13:09:24,040 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-19 14:09:25,905 uvicorn.error INFO:Started server process [22880]
+2022-07-19 14:09:25,905 uvicorn.error INFO:Waiting for application startup.
+2022-07-19 14:09:25,905 uvicorn.error INFO:Application startup complete.
+2022-07-19 14:09:37,289 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-19 14:11:10,389 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-19 14:11:10,448 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-19 14:11:10,629 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-19 14:11:10,786 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-19 14:11:10,943 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-19 14:11:11,088 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-19 14:11:11,282 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-19 14:11:11,470 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-19 14:11:11,597 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-19 14:11:11,739 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-19 14:11:11,929 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-19 14:11:12,060 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-19 14:11:12,234 root INFO:endpoint: '/get_data' , Task executed succesfully
