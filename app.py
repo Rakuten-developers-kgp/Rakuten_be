@@ -57,3 +57,5 @@ def input(data: bm.data):
         error_statement = "Something is wrong with your input at endpoint: /delete_data"
         logging.error(error_statement)
         return error_statement
+
+        
