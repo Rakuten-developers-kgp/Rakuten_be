@@ -1,4 +1,7 @@
-2022-07-20 11:33:17,252 uvicorn.error INFO:Started server process [59305]
-2022-07-20 11:33:17,252 uvicorn.error INFO:Waiting for application startup.
-2022-07-20 11:33:17,252 uvicorn.error INFO:Application startup complete.
-2022-07-20 11:34:00,439 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-21 13:17:29,847 uvicorn.error INFO:Started server process [71919]
+2022-07-21 13:17:29,848 uvicorn.error INFO:Waiting for application startup.
+2022-07-21 13:17:29,848 uvicorn.error INFO:Application startup complete.
+2022-07-21 13:17:44,402 uvicorn.error INFO:Shutting down
+2022-07-21 13:17:44,504 uvicorn.error INFO:Waiting for application shutdown.
+2022-07-21 13:17:44,505 uvicorn.error INFO:Application shutdown complete.
+2022-07-21 13:17:44,505 uvicorn.error INFO:Finished server process [71919]

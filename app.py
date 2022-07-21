@@ -1,6 +1,7 @@
 import logging
 import typing 
-from fastapi import FastAPI, routing
+from fastapi import FastAPI, Request, routing
+from requests import request
 # from pydantic.fields import FieldInfo, Undefined
 import database.mysqldb as db
 import database.basemodels as bm
@@ -33,11 +34,13 @@ def scan():
 
 
 @app.post("/input_name")
-def input(data: bm.data):
-    data = dict(data)
-
+async def input(request: Request):
+    # data = dict(data)
+    # data = dict(request.query_params)
+    request = await request.json()
     try:
-        name = data.get('name')
+        name = request.get('name', 'nothing1')
+        print(name)
         db.input_data(name)
         logging.info("endpoint: '/input_name' , added name succesfully")
 
@@ -47,10 +50,12 @@ def input(data: bm.data):
         return error_statement
 
 @app.delete("/delete_data")
-def input(data: bm.data):
-    data = dict(data)
+async def input(request: Request):
+    # data = dict(data)
+    request = await request.json()
+
     try:
-        name = data.get('name')
+        name = request.get('name')
         db.delete_data(name)
         logging.info("endpoint: '/delete_data' , deleted name succesfully")
     except:
@@ -58,4 +63,3 @@ def input(data: bm.data):
         logging.error(error_statement)
         return error_statement
 
-        
