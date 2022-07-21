@@ -1,7 +1,11 @@
-2022-07-21 13:17:29,847 uvicorn.error INFO:Started server process [71919]
-2022-07-21 13:17:29,848 uvicorn.error INFO:Waiting for application startup.
-2022-07-21 13:17:29,848 uvicorn.error INFO:Application startup complete.
-2022-07-21 13:17:44,402 uvicorn.error INFO:Shutting down
-2022-07-21 13:17:44,504 uvicorn.error INFO:Waiting for application shutdown.
-2022-07-21 13:17:44,505 uvicorn.error INFO:Application shutdown complete.
-2022-07-21 13:17:44,505 uvicorn.error INFO:Finished server process [71919]
+2022-07-21 17:39:23,260 uvicorn.error INFO:Started server process [94686]
+2022-07-21 17:39:23,260 uvicorn.error INFO:Waiting for application startup.
+2022-07-21 17:39:23,260 uvicorn.error INFO:Application startup complete.
+2022-07-21 17:40:22,655 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-21 17:40:27,800 root INFO:endpoint: '/input_name' , added name succesfully
+2022-07-21 17:40:30,911 root INFO:endpoint: '/delete_data' , deleted name succesfully
+2022-07-21 17:40:36,711 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-21 17:40:43,545 root INFO:endpoint: '/delete_data' , deleted name succesfully
+2022-07-21 17:40:45,868 root INFO:endpoint: '/get_data' , Task executed succesfully
+2022-07-21 17:46:12,314 root INFO:endpoint: '/input_name' , added name succesfully
+2022-07-21 17:46:13,626 root INFO:endpoint: '/get_data' , Task executed succesfully
